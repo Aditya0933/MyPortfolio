@@ -60,7 +60,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="px-[8%] py-[5%] bg-black text-orange-300">
+    <div id="project" className="px-[8%] py-[5%] bg-black text-orange-300">
         <h1 className="pb-4 text-center text-4xl font-extrabold font-serif relative after:content-[''] after:h-[6px] after:w-[100px] after:absolute after:bg-slate-50 after:mt-4 after:ml-[20px] after:rounded-tr-[90px] after:rounded-br-[90px] before:h-[6px] before:w-[100px] before:absolute before:bg-slate-50 before:mt-4 before:-ml-[120px] before:rounded-tr-[90px] before:rounded-br-[90px]">My Projects</h1>
         <p className="m-auto text-center w-[80%] pb-12">Check out my frontend projects! They're all about creating cool and easy-to-use websites and apps. Dive in to see how I make things look good and work smoothly on the web. With a focus on clean design, intuitive navigation, and seamless user experiences, my projects aim to leave a lasting impression on visitors and users alike.</p>
       <div className="grid grid-cols-2 bg-black text-white">
@@ -75,7 +75,7 @@ const Projects = () => {
           />
         </div>
         <div className="flex justify-center flex-col pr-20">
-          <h2 className="mb-4 text-3xl font-bold text-orange-300">
+          <h2 className="mb-4 text-3xl font-bold text-orange-300 before:h-[2px] before:w-[50px] before:absolute hover:text-orange-300 hover:cursor-pointer before:bg-orange-500 before:mt-10 before:rounded-tr-[90px] before:rounded-br-[90px]">
             NETFLIX GPT
           </h2>
           <ul>
@@ -123,7 +123,7 @@ const Projects = () => {
           />
         </div>
         <div className="flex justify-center flex-col pr-20">
-          <h2 className="mb-4 text-3xl font-bold text-orange-300">
+          <h2 className="mb-4 text-3xl font-bold text-orange-300 before:h-[2px] before:w-[50px] before:absolute hover:text-orange-300 hover:cursor-pointer before:bg-orange-500 before:mt-10 before:rounded-tr-[90px] before:rounded-br-[90px]">
             STRAY TO STAY
           </h2>
           <ul>
@@ -167,7 +167,7 @@ const Projects = () => {
           />
         </div>
         <div className="flex justify-center flex-col pr-20">
-          <h2 className="mb-4 text-3xl font-bold text-orange-300">
+          <h2 className="mb-4 text-3xl font-bold text-orange-300 before:h-[2px] before:w-[50px] before:absolute hover:text-orange-300 hover:cursor-pointer before:bg-orange-500 before:mt-10 before:rounded-tr-[90px] before:rounded-br-[90px]-">
             THE MEMORY GAME
           </h2>
           <ul>

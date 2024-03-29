@@ -4,6 +4,7 @@ const AboutMe = () => {
   console.log("End");
   return (
     <div
+    id="about"
       className="relative bg-center bg-no-repeat bg-black px-[8%] py-[5%] text-left z-10"
       style={{
         backgroundImage:

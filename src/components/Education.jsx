@@ -3,9 +3,9 @@ import SchoolInfo from "../subcomponents.jsx/SchoolInfo";
 
 const Education = () =>{
     return(
-        <div>
-            <SchoolInfo/>
-            <CollegeInfo/>
+        <div id="education">
+            {/* <SchoolInfo/>
+            <CollegeInfo/> */}
         </div>
     )
 }
