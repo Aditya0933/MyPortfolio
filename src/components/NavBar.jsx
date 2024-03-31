@@ -1,5 +1,5 @@
 import AboutMeBackground from "../assets/IMG/PorfolioLogo.png";
-
+import { HiOutlineViewList } from "react-icons/hi";
 
 function NavBar() {
   console.log("Start");
@@ -26,6 +26,9 @@ function NavBar() {
             <button className="px-4 py-2 font-bold text-lg  hover:cursor-pointer bg-orange-500 rounded-lg hover:text-orange-400  hover:bg-white border-none">Contact</button>
           </li>
         </ul>
+      </div>
+      <div>
+        <HiOutlineViewList className="h-8 w-8 sm:hidden"/>
       </div>
     </div>
   );

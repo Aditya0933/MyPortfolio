@@ -14,12 +14,12 @@ function App() {
     <>
       <NavBar/>
       <MainPage/>
-      {/* <AboutMe/>
+      <AboutMe/>
       <Education/>
       <Skills/>
       <SocialMedia/>
       <Projects/>
-      <Footer/> */}
+      <Footer/>
     </>
   )
 }
