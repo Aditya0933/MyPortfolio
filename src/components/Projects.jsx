@@ -66,7 +66,7 @@ const Projects = () => {
       <h1 className="pb-2 sm:pb-4 text-center text-4xl font-extrabold font-serif relative after:content-[''] after:h-[6px] sm:after:w-[100px] after:absolute after:bg-slate-50 after:mt-4 after:ml-[20px] after:rounded-tr-[90px] after:rounded-br-[90px] before:h-[6px] sm:before:w-[100px] before:absolute before:bg-slate-50 before:mt-4 before:-ml-[120px] before:rounded-tr-[90px] before:rounded-br-[90px] text-orange-500">
         My Projects
       </h1>
-      <p className="m-auto text-[14px] sm:text-[16px] text-center w-[100%] sm:w-[80%] pb-4 sm:pb-12">
+      <p className="m-auto text-[14px] sm:text-[16px] text-center w-[100%] sm:w-[90%] md:w-[85%] lg:w-[80%] pb-4 sm:pb-8">
         Check out my frontend projects! They're all about creating cool and
         easy-to-use websites and apps. Dive in to see how I make things look
         good and work smoothly on the web. With a focus on clean design,

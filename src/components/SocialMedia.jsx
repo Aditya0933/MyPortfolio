@@ -10,7 +10,7 @@ const SocialMedia = () => {
   return (
     <div className="bg-black text-orange-100 grid place-items-center pt-[5%] pb-[12%]">
       <h1 className="pb-2 sm:pb-4 text-center text-orange-500 text-[25px] sm:text-4xl font-extrabold font-serif relative after:content-[''] after:h-[6px] sm:after:w-[100px] after:absolute after:bg-slate-50 after:mt-4 after:ml-[20px] after:rounded-tr-[90px] after:rounded-br-[90px] before:h-[6px] sm:before:w-[100px] before:absolute before:bg-slate-50 before:mt-4 before:-ml-[120px] before:rounded-tr-[90px] before:rounded-br-[90px]">Connect with Me</h1>
-        <p className="px-[4%] sm:px-[8%] m-auto text-[14px] sm:text-[16px] text-center w-[100%] sm:w-[80%] pb-4 sm:pb-12">Explore my online presence and stay updated on the latest projects, insights, and industry trends by connecting with me on social media. Follow along for valuable content and engaging discussions!</p>
+        <p className="px-[4%] sm:px-[8%] m-auto text-[14px] sm:text-[16px] text-center w-[100%] sm:w-[90%] md:w-[85%] lg:w-[80%] pb-4 sm:pb-12">Explore my online presence and stay updated on the latest projects, insights, and industry trends by connecting with me on social media. Follow along for valuable content and engaging discussions!</p>
       <div className="">
         <ul className="flex gap-2 sm:gap-8">
           <li className="group">

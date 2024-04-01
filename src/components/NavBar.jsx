@@ -40,6 +40,7 @@ function NavBar() {
       <div className="h-[70px] sm:h-[100px]">
         <img className="h-full w-[100%]" src={AboutMeBackground} alt="Aditya Singh Parihar"></img>
       </div>
+      <div>
       <div id="navListCon" className="hidden sm:block">
         <ul className="flex justify-between items-center pr-1 font-serif">
           <li className="pr-5 font-bold text-lg hover:text-orange-400 hover:cursor-pointer">Home</li>
@@ -67,6 +68,7 @@ function NavBar() {
       </div>
       <div>
         <CiLineHeight id="HumburgNav" className="h-8 w-8 sm:hidden" onClick={HumburgNavClick}/>
+      </div>
       </div>
     </div>
   );

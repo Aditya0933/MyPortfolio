@@ -14,14 +14,14 @@ const AboutMe = () => {
       <h1 className="pb-1 sm:pb-4 text-center text-orange-500 text-[25px] text-4xl font-extrabold font-serif relative after:content-[''] after:h-[6px] sm:after:w-[100px] after:absolute after:bg-slate-50 after:mt-4 after:ml-[20px] after:rounded-tr-[90px] after:rounded-br-[90px] before:h-[6px] sm:before:w-[100px] before:absolute before:bg-slate-50 before:mt-4 before:-ml-[120px] before:rounded-tr-[90px] before:rounded-br-[90px]">
         Embarking on a Journey in Tech
       </h1>
-      <p className="m-auto text-[14px] sm:text-[16px] text-center sm:w-[80%] pb-4 sm:pb-8 text-orange-100">
+      <p className="m-auto text-[14px] sm:text-[16px] text-center sm:w-[90%] md:w-[85%] lg:w-[80%] pb-4 sm:pb-8 text-orange-100">
         Welcome to my journey in the dynamic world of technology! Fueled by
         curiosity and innovation, I'm committed to continuous learning and
         growth. Join me as I explore new technologies, hone my skills, and push
         boundaries. Let's embark on this exciting adventure together, shaping
         the future with creativity and endless possibilities.
       </p>
-      <div className="text-white text-[12px] sm:text-lg font-semibold leading-7x p-[15px] sm:p-[50px] max-w-[900px] m-auto tracking-wider border-double border-4 sm:border-8 bg-black animated-border">
+      <div className="text-white text-[12px] sm:text-lg font-semibold leading-7x p-[15px] sm:p-[10px] md:p-[30px] lg:p-[50px] max-w-[900px] m-auto tracking-wider border-double border-4 sm:border-8 bg-black animated-border">
         <p className="mb-2 sm:mb-4">
           Hi there! I'm Aditya Singh Parihar, currently pursuing my B.Tech in
           Computer Science at Kanpur Institute of Technology, affiliatedwith Dr.
