@@ -15,7 +15,7 @@ function App() {
       <NavBar/>
       <MainPage/>
       <AboutMe/>
-      <Education/>
+      {/* <Education/> */}
       <Skills/>
       <SocialMedia/>
       <Projects/>

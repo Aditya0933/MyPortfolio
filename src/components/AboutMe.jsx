@@ -14,7 +14,7 @@ const AboutMe = () => {
       <h1 className="pb-1 sm:pb-4 text-center text-orange-500 text-[25px] text-4xl font-extrabold font-serif relative after:content-[''] after:h-[6px] sm:after:w-[100px] after:absolute after:bg-slate-50 after:mt-4 after:ml-[20px] after:rounded-tr-[90px] after:rounded-br-[90px] before:h-[6px] sm:before:w-[100px] before:absolute before:bg-slate-50 before:mt-4 before:-ml-[120px] before:rounded-tr-[90px] before:rounded-br-[90px]">
         Embarking on a Journey in Tech
       </h1>
-      <p className="m-auto text-[14px] sm:text-[16px] text-center sm:w-[80%] pb-4 sm:pb-8 text-orange-200">
+      <p className="m-auto text-[14px] sm:text-[16px] text-center sm:w-[80%] pb-4 sm:pb-8 text-orange-100">
         Welcome to my journey in the dynamic world of technology! Fueled by
         curiosity and innovation, I'm committed to continuous learning and
         growth. Join me as I explore new technologies, hone my skills, and push

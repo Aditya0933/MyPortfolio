@@ -61,12 +61,12 @@ const Projects = () => {
   return (
     <div
       id="project"
-      className="sm:px-[8%] px-[5%] py-[5%] bg-black text-orange-300"
+      className="sm:px-[8%] px-[5%] py-[5%] bg-black text-orange-100"
     >
-      <h1 className="pb-2 sm:pb-4 text-center text-4xl font-extrabold font-serif relative after:content-[''] after:h-[6px] sm:after:w-[100px] after:absolute after:bg-slate-50 after:mt-4 after:ml-[20px] after:rounded-tr-[90px] after:rounded-br-[90px] before:h-[6px] sm:before:w-[100px] before:absolute before:bg-slate-50 before:mt-4 before:-ml-[120px] before:rounded-tr-[90px] before:rounded-br-[90px]">
+      <h1 className="pb-2 sm:pb-4 text-center text-4xl font-extrabold font-serif relative after:content-[''] after:h-[6px] sm:after:w-[100px] after:absolute after:bg-slate-50 after:mt-4 after:ml-[20px] after:rounded-tr-[90px] after:rounded-br-[90px] before:h-[6px] sm:before:w-[100px] before:absolute before:bg-slate-50 before:mt-4 before:-ml-[120px] before:rounded-tr-[90px] before:rounded-br-[90px] text-orange-500">
         My Projects
       </h1>
-      <p className="m-auto text-[14px] sm:text-[16px] text-center w-[95%] sm:w-[80%] pb-4 sm:pb-12">
+      <p className="m-auto text-[14px] sm:text-[16px] text-center w-[100%] sm:w-[80%] pb-4 sm:pb-12">
         Check out my frontend projects! They're all about creating cool and
         easy-to-use websites and apps. Dive in to see how I make things look
         good and work smoothly on the web. With a focus on clean design,
@@ -118,7 +118,7 @@ const Projects = () => {
             src={ProImgCon1[Count1].url}
           ></img>
           <IoIosArrowForward
-            className="h-10 w-10 absolute -right-[30px] top-[45%] hover:cursor-pointer"
+            className="h-8 w-8 absolute -right-[20px] top-[45%] hover:cursor-pointer"
             onClick={ArrowFunClicked1}
           />
         </div>
@@ -164,7 +164,7 @@ const Projects = () => {
             src={ProImgCon2[Count2].url}
           ></img>
           <IoIosArrowForward
-            className="h-10 w-10 absolute -right-[30px] top-[45%] hover:cursor-pointer"
+            className="h-8 w-8 absolute -right-[20px] top-[45%] hover:cursor-pointer"
             onClick={ArrowFunClicked2}
           />
         </div>
@@ -208,7 +208,7 @@ const Projects = () => {
             src={ProImgCon3[Count3].url}
           ></img>
           <IoIosArrowForward
-            className="h-10 w-10 absolute -right-[30px] top-[45%] hover:cursor-pointer"
+            className="h-8 w-8 absolute -right-[20px] top-[45%] hover:cursor-pointer"
             onClick={ArrowFunClicked3}
           />
         </div>
