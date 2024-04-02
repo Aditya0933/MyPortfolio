@@ -1,14 +1,26 @@
-import Project1A from "../assets/IMG/AboutMeBG.jpg";
-import Project1B from "../assets/IMG/AboutMeBackground.jpg";
-import Project1C from "../assets/IMG/AboutSection.png";
+import Project1A from "../assets/IMG/P1img1.jpg";
+import Project1B from "../assets/IMG/P1img2.jpg";
+import Project1C from "../assets/IMG/P1img3.jpg";
+import Project1D from "../assets/IMG/P1img4.jpg";
+import Project1E from "../assets/IMG/P1img5.jpg";
 
-import Project2A from "../assets/IMG/AboutMeBG.jpg";
-import Project2B from "../assets/IMG/AboutMeBackground.jpg";
-import Project2C from "../assets/IMG/AboutSection.png";
+import Project2A from "../assets/IMG/P2img1.jpg";
+import Project2B from "../assets/IMG/P2img2.jpg";
+import Project2C from "../assets/IMG/P2img3.jpg";
+import Project2D from "../assets/IMG/P2img4.png";
+import Project2E from "../assets/IMG/P2img5.jpg";
+import Project2F from "../assets/IMG/P2img6.jpg";
+import Project2G from "../assets/IMG/P2img7.jpg";
+import Project2H from "../assets/IMG/P2img8.jpg";
+import Project2I from "../assets/IMG/P2img9.jpg";
+import Project2J from "../assets/IMG/P2img10.jpg";
 
-import Project3A from "../assets/IMG/AboutMeBG.jpg";
-import Project3B from "../assets/IMG/AboutMeBackground.jpg";
-import Project3C from "../assets/IMG/AboutSection.png";
+import Project3A from "../assets/IMG/P3img1.jpg";
+import Project3B from "../assets/IMG/P3img2.jpg";
+import Project3C from "../assets/IMG/P3img3.jpg";
+import Project3D from "../assets/IMG/P3img4.jpg";
+import Project3E from "../assets/IMG/P3img5.jpg";
+import Project3F from "../assets/IMG/P3img5.jpg";
 
 import { IoIosArrowForward } from "react-icons/io";
 import React, { useState } from "react";
@@ -19,6 +31,8 @@ const Projects = () => {
     { url: Project1A, tag: "First" },
     { url: Project1B, tag: "second" },
     { url: Project1C, tag: "third" },
+    { url: Project1D, tag: "four" },
+    { url: Project1E, tag: "five" },
   ];
 
   const [Count1, setCount1] = useState(0);
@@ -34,6 +48,13 @@ const Projects = () => {
     { url: Project2A, tag: "First" },
     { url: Project2B, tag: "second" },
     { url: Project2C, tag: "third" },
+    { url: Project2D, tag: "four" },
+    { url: Project2E, tag: "five" },
+    { url: Project2F, tag: "six" },
+    { url: Project2G, tag: "seven" },
+    { url: Project2H, tag: "eight" },
+    { url: Project2I, tag: "nine" },
+    { url: Project2J, tag: "ten" },
   ];
 
   const [Count2, setCount2] = useState(0);
@@ -48,6 +69,9 @@ const Projects = () => {
     { url: Project3A, tag: "First" },
     { url: Project3B, tag: "second" },
     { url: Project3C, tag: "third" },
+    { url: Project3D, tag: "four" },
+    { url: Project3E, tag: "five" },
+    { url: Project3F, tag: "six" },
   ];
 
   const [Count3, setCount3] = useState(0);
@@ -74,6 +98,16 @@ const Projects = () => {
         leave a lasting impression on visitors and users alike.
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 bg-black text-white mb-4">
+        <div className="h-[300px] w-[300px] lg:h-[400px] lg:w-[400px] bg-slate-200 m-auto relative">
+          <img
+            className="pr-[5%] h-full w-full bg-black"
+            src={ProImgCon1[Count1].url}
+          ></img>
+          <IoIosArrowForward
+            className="h-8 w-8 absolute -right-[20px] top-[45%] hover:cursor-pointer"
+            onClick={ArrowFunClicked1}
+          />
+        </div>
         <div className="flex justify-center flex-col mt-[10px] sm:pr-[20px]">
           <h2 className="mb-6 text-2xl sm:text-3xl font-bold text-orange-300 before:h-[2px] before:w-[50px] before:absolute hover:text-orange-300 hover:cursor-pointer before:bg-orange-500 before:mt-10 before:rounded-tr-[90px] before:rounded-br-[90px]">
             NETFLIX GPT
@@ -112,18 +146,18 @@ const Projects = () => {
             </button>
           </div>
         </div>
-        <div className="h-[300px] w-[300px] bg-slate-200 m-auto relative">
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 flex-col-reverse bg-black text-white mb-4">
+        <div className="h-[300px] w-[300px] lg:h-[400px] lg:w-[400px] bg-slate-200 m-auto relative">
           <img
-            className="p-[5%] h-full w-full bg-black"
-            src={ProImgCon1[Count1].url}
+            className="pr-[5%] h-full w-full bg-black"
+            src={ProImgCon2[Count2].url}
           ></img>
           <IoIosArrowForward
             className="h-8 w-8 absolute -right-[20px] top-[45%] hover:cursor-pointer"
-            onClick={ArrowFunClicked1}
+            onClick={ArrowFunClicked2}
           />
         </div>
-      </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 bg-black text-white mb-4">
         <div className="flex justify-center flex-col mt-[10px] sm:pr-[20px]">
           <h2 className="mb-6 text-2xl sm:text-3xl font-bold text-orange-300 before:h-[2px] before:w-[50px] before:absolute hover:text-orange-300 hover:cursor-pointer before:bg-orange-500 before:mt-10 before:rounded-tr-[90px] before:rounded-br-[90px]">
             STRAY TO STAY
@@ -158,18 +192,18 @@ const Projects = () => {
             </button>
           </div>
         </div>
-        <div className="h-[300px] w-[300px] bg-slate-200 m-auto relative">
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 bg-black text-white mb-4">
+        <div className="h-[300px] w-[300px] lg:h-[400px] lg:w-[400px] bg-slate-200 m-auto relative">
           <img
-            className="p-[5%] h-full w-full bg-black"
-            src={ProImgCon2[Count2].url}
+            className="pr-[5%] h-full w-full bg-black"
+            src={ProImgCon3[Count3].url}
           ></img>
           <IoIosArrowForward
             className="h-8 w-8 absolute -right-[20px] top-[45%] hover:cursor-pointer"
-            onClick={ArrowFunClicked2}
+            onClick={ArrowFunClicked3}
           />
         </div>
-      </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 bg-black text-white mb-4">
         <div className="flex justify-center flex-col mt-[10px] sm:pr-[20px]">
           <h2 className="mb-6 text-2xl sm:text-3xl font-bold text-orange-300 before:h-[2px] before:w-[50px] before:absolute hover:text-orange-300 hover:cursor-pointer before:bg-orange-500 before:mt-10 before:rounded-tr-[90px] before:rounded-br-[90px]-">
             THE MEMORY GAME
@@ -201,16 +235,6 @@ const Projects = () => {
               </a>
             </button>
           </div>
-        </div>
-        <div className="h-[300px] w-[300px] bg-slate-200 m-auto relative">
-          <img
-            className="p-[5%] h-full w-full bg-black"
-            src={ProImgCon3[Count3].url}
-          ></img>
-          <IoIosArrowForward
-            className="h-8 w-8 absolute -right-[20px] top-[45%] hover:cursor-pointer"
-            onClick={ArrowFunClicked3}
-          />
         </div>
       </div>
     </div>

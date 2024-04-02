@@ -110,13 +110,13 @@ const Footer = () => {
             </button>
           </div>
       </div>
-      <div className="bg-black grid grid-cols-2 sm:grid-cols-4 text-white px-[8%] py-[5%]">
-        <div className="hidden sm:block px-2">
+      <div className="bg-black grid grid-cols-2 sm:grid-cols-6 text-white px-[8%] py-[5%]">
+        <div className="hidden sm:block px-2 col-span-3">
           <img src={WebLogo} className="h-28 w-32"></img>
           <h2 className="text-2xl mb-2 mt-2 hover:text-orange-400 hover:cursor-pointer">
             {name === null ? name : "Aditya Singh Parihar"}
           </h2>
-          <p className="tracking-wide leading-6">
+          <p className="tracking-wide leading-6 w-[80%]">
             {bio === null
               ? bio
               : "|| Passionate frontend enthusiast | Dedicated to crafting seamless user experiences. Let's create something remarkable! ||"}
