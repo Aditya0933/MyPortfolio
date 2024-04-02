@@ -1,3 +1,5 @@
+import ProfilePic from "../assets/IMG/P3img4.jpg"
+
 const MainPage = () => {
   console.log("Start Main Page");
   return (
@@ -38,10 +40,10 @@ const MainPage = () => {
         className=" relative sm:mt-6 lg:mt-0 h-[350px] w-[300px] sm:h-[400px] sm:w-[350px] lg:h-[100%] lg:w-[100%] bg-cover bg-center bg-no-repeat bg-black rounded-full"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1623685471440-5b0f9609ac23?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
+            "url('https://media.licdn.com/dms/image/D5603AQHV40gE2fbbng/profile-displayphoto-shrink_800_800/0/1702401960947?e=2147483647&v=beta&t=lnzXMXWoognHm15_W1rW46LH04NslW39188PBLLFF88')",
         }}
       >
-        <div className="absolute inset-0 bg-black opacity-90"></div>
+        <div className="absolute inset-0 bg-black opacity-70"></div>
       </div>
     </div>
   );
