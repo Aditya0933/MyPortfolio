@@ -182,9 +182,10 @@ const Projects = () => {
             </li>
           </ul>
           <div className="mt-3 sm:mt-6">
-            <button className="mr-6 px-4 py-2 border border-orange-500 rounded-md text-orange-400 hover:bg-orange-500 transition duration-500 font-semibold hover:text-black">
-              Live Link
-            </button>
+          <a href="https://ankitsahu640.github.io/StrayToStay-frontend/">
+            <button className="mr-6 px-4 py-2 border border-orange-500 rounded-md text-orange-400 hover:bg-orange-500 transition duration-500 font-semibold hover:text-black">Live Link
+             
+            </button> </a>
             <button className="px-4 py-2 border border-orange-500 rounded-md text-black bg-orange-500 hover:bg-black transition duration-500 font-semibold hover:text-orange-400">
               <a href="https://github.com/Aditya0933/StarytoStayProjectUpdated">
                 View Code

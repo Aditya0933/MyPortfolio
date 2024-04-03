@@ -1,13 +1,18 @@
+
+.nameContainer{
+    
+    color: black;
+}
 .nameContainer > span{
    animation: glow 5s ease-in-out infinite;
 }
  @keyframes glow {
     0% , 100% {
-        color: #ffffff;
+        color: rgba(0, 0, 0, 0.9);
         text-shadow: 0 0 12px orange , 0 0 20px orange , 0 0 50px orange;
     }
     90% , 10% {
-        color: rgb(5, 5, 5);
+        color: white;
         text-shadow: none;
     }
  }

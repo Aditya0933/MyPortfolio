@@ -14,7 +14,7 @@ const SocialMedia = () => {
       <div className="">
         <ul className="flex gap-2 sm:gap-8">
           <li className="group">
-            <a>
+            <a href="https://wa.me/8081923437">
               <IoLogoWhatsapp className=" h-8 w-8 sm:h-16 p-1 sm:p-3 sm:w-16 border-2 border-dashed transform rotate-[0deg] hover:rotate-[360deg] hover: border-black  rounded-[50px] hover:border-orange-500 hover:cursor-pointer hover:text-orange-300 transition duration-500 shadow-sm shadow-orange-300 hover:shadow-none" />
             </a>
             <div className="relative">
@@ -22,7 +22,7 @@ const SocialMedia = () => {
             </div>
           </li>
           <li className="group">
-            <a>
+            <a href="https://github.com/Aditya0933">
               <FaGithub className=" h-8 w-8 sm:h-16 p-1 sm:p-3 sm:w-16 border-2 border-dashed transform rotate-[0deg] hover:rotate-[360deg] hover: border-black  rounded-[50px] hover:border-orange-500 hover:cursor-pointer hover:text-orange-300 transition duration-500 shadow-3xl shadow-orange-300 hover:shadow-none" />
             </a>
             <div className="relative">
@@ -30,7 +30,7 @@ const SocialMedia = () => {
             </div>
           </li>
           <li className="group">
-            <a>
+            <a href="https://www.instagram.com/iamaadi_033">
               <FaInstagram className=" h-8 w-8 sm:h-16 p-1 sm:p-3 sm:w-16 border-2 border-dashed transform rotate-[0deg] hover:rotate-[360deg] hover: border-black  rounded-[50px] hover:border-orange-500 hover:cursor-pointer hover:text-orange-300 transition duration-500 shadow-sm shadow-orange-300 hover:shadow-none" />
             </a>
             <div className="relative">
@@ -38,7 +38,7 @@ const SocialMedia = () => {
             </div>
           </li>
           <li className="group">
-            <a>
+            <a href="https://www.linkedin.com/in/aditya-singh-parihar-a87aba250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
               <TbBrandLinkedin className=" h-8 w-8 sm:h-16 p-1 sm:p-3 sm:w-16 border-2 border-dashed transform rotate-[0deg] hover:rotate-[360deg] hover: border-black  rounded-[50px] hover:border-orange-500 hover:cursor-pointer hover:text-orange-300 transition duration-500 shadow-3xl shadow-orange-300 hover:shadow-none" />
             </a>
             <div className="relative">
@@ -46,7 +46,7 @@ const SocialMedia = () => {
             </div>
           </li>
           <li className="group">
-            <a>
+            <a href="mailto:aadiofficial0933@gmail.com?subject=Subject%20of%20Email&body=Body%20of%20Email">
               <IoMailUnreadOutline className=" h-8 w-8 sm:h-16 p-1 sm:p-3 sm:w-16 border-2 border-dashed transform rotate-[0deg] hover:rotate-[360deg] hover: border-black  rounded-[50px] hover:border-orange-500 hover:cursor-pointer hover:text-orange-300 transition duration-500 shadow-sm shadow-orange-300 hover:shadow-none" />
             </a>
             <div className="relative">
@@ -54,7 +54,7 @@ const SocialMedia = () => {
             </div>
           </li>
           <li className="group">
-            <a>
+            <a href="https://www.youtube.com/@pes_012">
               <TbBrandYoutube className=" h-8 w-8 sm:h-16 p-1 sm:p-3 sm:w-16 border-2 border-dashed transform rotate-[0deg] hover:rotate-[360deg] hover: border-black  rounded-[50px] hover:border-orange-500 hover:cursor-pointer hover:text-orange-300 transition duration-500 shadow-3xl shadow-orange-300 hover:shadow-none" />
             </a>
             <div className="relative">
@@ -62,7 +62,7 @@ const SocialMedia = () => {
             </div>
           </li>
           <li className="group">
-            <a>
+            <a href="https://www.facebook.com/aadithakur.aadithakur.31">
               <FaFacebook className=" h-8 w-8 sm:h-16 p-1 sm:p-3 sm:w-16 border-2 border-dashed transform rotate-[0deg] hover:rotate-[360deg] hover: border-black  rounded-[50px] hover:border-orange-500 hover:cursor-pointer hover:text-orange-300 transition duration-500 shadow-sm shadow-orange-300 hover:shadow-none" />
             </a>
             <div className="relative">

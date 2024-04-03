@@ -122,15 +122,17 @@ const Footer = () => {
               : "|| Passionate frontend enthusiast | Dedicated to crafting seamless user experiences. Let's create something remarkable! ||"}
           </p>
           <p className="mt-2 hover:text-orange-300 cursor-pointer">
-            <span>aadiofficial0933@gmail.com</span>
+            <a href="mailto:aadiofficial0933@gmail.com?subject=Subject%20of%20Email&body=Body%20of%20Email"><span>aadiofficial0933@gmail.com</span></a>
+            
           </p>
           <p className="mt-2 hover:text-orange-300 cursor-pointer">
-            <span>8081923437</span>
+            <a href="tel:8081923437"><span>8081923437</span></a>
+            
           </p>
           <div className="flex flex-col gap-2 mt-4">
             <button className="mr-6 border border-orange-500 rounded-md text-orange-400 hover:bg-orange-500 transition duration-500 w-[95px] text-lg font-semibold hover:text-black">
               <a
-                href="https://lively-mooncake-88c2cf.netlify.app"
+                href="mailto:aadiofficial0933@gmail.com?subject=Subject%20of%20Email&body=Body%20of%20Email"
                 className=" flex my-auto gap-5"
               >
                 <IoMailUnreadOutline className="my-auto ml-4" />
@@ -139,7 +141,7 @@ const Footer = () => {
             </button>
             <button className="mr-6 border border-orange-500 rounded-md text-orange-400 hover:bg-orange-500 transition duration-500 w-[92px] text-lg font-semibold hover:text-black">
               <a
-                href="https://lively-mooncake-88c2cf.netlify.app"
+                href="tel:8081923437"
                 className=" flex my-auto gap-5"
               >
                 <BsTelephoneInbound className="my-auto ml-4" />
@@ -148,7 +150,7 @@ const Footer = () => {
             </button>
             <button className="mr-6 border border-orange-500 rounded-md text-orange-400 hover:bg-orange-500 transition duration-500 w-[145px] text-lg font-semibold hover:text-black">
               <a
-                href="https://lively-mooncake-88c2cf.netlify.app"
+                href="https://wa.me/8081923437"
                 className=" flex my-auto gap-5"
               >
                 <FaWhatsapp className="my-auto ml-4" />
@@ -247,7 +249,7 @@ const Footer = () => {
           </h2>
           <ul className="mt-8">
             <li className="flex mb-4">
-              <a>
+              <a href="https://wa.me/8081923437">
                 <IoLogoWhatsapp className=" h-8 w-8 sm:h-12 p-1 sm:p-2 sm:w-12  border-2 border-dashed transform rotate-[0deg] hover:rotate-[360deg] hover: border-black  rounded-[50px] hover:border-orange-500 hover:cursor-pointer hover:text-orange-300 transition duration-500 shadow-sm shadow-orange-300 hover:shadow-none" />
               </a>
               <span className="ml-2 sm:ml-4 my-auto text-[14px] sm:text-[16px] hover:text-orange-400 cursor-pointer">
@@ -255,7 +257,7 @@ const Footer = () => {
               </span>
             </li>
             <li className="flex mb-4">
-              <a>
+              <a href="https://github.com/Aditya0933">
                 <FaGithub className=" h-8 w-8 sm:h-12 p-1 sm:p-2 sm:w-12  border-2 border-dashed transform rotate-[0deg] hover:rotate-[360deg] hover: border-black  rounded-[50px] hover:border-orange-500 hover:cursor-pointer hover:text-orange-300 transition duration-500 shadow-sm shadow-orange-300 hover:shadow-none" />
               </a>
               <span className="ml-2 sm:ml-4 my-auto text-[14px] sm:text-[16px] hover:text-orange-400 cursor-pointer">
@@ -263,7 +265,7 @@ const Footer = () => {
               </span>
             </li>
             <li className="flex mb-4">
-              <a>
+              <a href="https://www.instagram.com/iamaadi_033">
                 <FaInstagram className=" h-8 w-8 sm:h-12 p-1 sm:p-2 sm:w-12  border-2 border-dashed transform rotate-[0deg] hover:rotate-[360deg] hover: border-black  rounded-[50px] hover:border-orange-500 hover:cursor-pointer hover:text-orange-300 transition duration-500 shadow-sm shadow-orange-300 hover:shadow-none" />
               </a>
               <span className="ml-2 sm:ml-4 my-auto text-[14px] sm:text-[16px] hover:text-orange-400 cursor-pointer">
@@ -271,7 +273,7 @@ const Footer = () => {
               </span>
             </li>
             <li className="flex mb-4">
-              <a>
+              <a href="https://www.linkedin.com/in/aditya-singh-parihar-a87aba250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                 <TbBrandLinkedin className=" h-8 w-8 sm:h-12 p-1 sm:p-2 sm:w-12  border-2 border-dashed transform rotate-[0deg] hover:rotate-[360deg] hover: border-black  rounded-[50px] hover:border-orange-500 hover:cursor-pointer hover:text-orange-300 transition duration-500 shadow-sm shadow-orange-300 hover:shadow-none" />
               </a>
               <span className="ml-2 sm:ml-4 my-auto text-[14px] sm:text-[16px] hover:text-orange-400 cursor-pointer">
@@ -279,7 +281,7 @@ const Footer = () => {
               </span>
             </li>
             <li className="flex mb-4">
-              <a>
+              <a href="https://www.youtube.com/@pes_012">
                 <TbBrandYoutube className=" h-8 w-8 sm:h-12 p-1 sm:p-2 sm:w-12  border-2 border-dashed transform rotate-[0deg] hover:rotate-[360deg] hover: border-black  rounded-[50px] hover:border-orange-500 hover:cursor-pointer hover:text-orange-300 transition duration-500 shadow-sm shadow-orange-300 hover:shadow-none" />
               </a>
               <span className="ml-2 sm:ml-4 my-auto text-[14px] sm:text-[16px] hover:text-orange-400 cursor-pointer">
@@ -287,7 +289,7 @@ const Footer = () => {
               </span>
             </li>
             <li className="flex mb-4">
-              <a>
+              <a href="https://www.facebook.com/aadithakur.aadithakur.31">
                 <FaFacebook className=" h-8 w-8 sm:h-12 p-1 sm:p-2 sm:w-12  border-2 border-dashed transform rotate-[0deg] hover:rotate-[360deg] hover: border-black  rounded-[50px] hover:border-orange-500 hover:cursor-pointer hover:text-orange-300 transition duration-500 shadow-sm shadow-orange-300 hover:shadow-none" />
               </a>
               <span className="ml-2 sm:ml-4 my-auto text-[14px] sm:text-[16px] hover:text-orange-400 cursor-pointer">
