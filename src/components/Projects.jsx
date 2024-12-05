@@ -238,6 +238,50 @@ const Projects = () => {
           </div>
         </div>
       </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 bg-black text-white mb-4">
+        <div className="h-[300px] w-[300px] lg:h-[400px] lg:w-[400px] bg-slate-200 m-auto relative">
+          <img
+            className="pr-[5%] h-full w-full bg-black"
+            src={ProImgCon3[Count3].url}
+          ></img>
+          <IoIosArrowForward
+            className="h-8 w-8 absolute -right-[20px] top-[45%] hover:cursor-pointer"
+            onClick={ArrowFunClicked3}
+          />
+        </div>
+        <div className="flex justify-center flex-col mt-[10px] sm:pr-[20px]">
+          <h2 className="mb-6 text-2xl sm:text-3xl font-bold text-orange-300 before:h-[2px] before:w-[50px] before:absolute hover:text-orange-300 hover:cursor-pointer before:bg-orange-500 before:mt-10 before:rounded-tr-[90px] before:rounded-br-[90px]-">
+            THE MEMORY GAME
+          </h2>
+          <ul>
+            <li className="mb-1 font-medium text-pretty text-[14px] sm:text-[16px] hover:text-orange-300 cursor-zoom-in">
+              1. Developed using HTML , CSS and JAVASCRIPT.
+            </li>
+            <li className="mb-1 font-medium text-pretty text-[14px] sm:text-[16px] hover:text-orange-300 cursor-zoom-in">
+              2. Used CSS to style the webpage and JavaScript to make the page
+              responsive.
+            </li>
+            <li className="mb-1 font-medium text-pretty text-[14px] sm:text-[16px] hover:text-orange-300 cursor-zoom-in">
+              3. Game contains different card with different images.
+            </li>
+            <li className="mb-1 font-medium text-pretty text-[14px] sm:text-[16px] hover:text-orange-300 cursor-zoom-in">
+              4. Player's time of matching and moves displayed over the timer.
+            </li>
+          </ul>
+          <div className="mt-3 sm:mt-6">
+            <a href="https://aditya0933.github.io/MemoryGameUpdated/">
+              <button className="mr-6 px-4 py-2 border border-orange-500 rounded-md text-orange-400 hover:bg-orange-500 transition duration-500 font-semibold hover:text-black">
+                Live Link
+              </button>
+            </a>
+            <button className="px-4 py-2 border border-orange-500 rounded-md text-black bg-orange-500 hover:bg-black transition duration-500 font-semibold hover:text-orange-400">
+              <a href="https://github.com/Aditya0933/MemoryGameUpdated">
+                View Code
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
