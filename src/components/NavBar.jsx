@@ -4,9 +4,7 @@ import { GiSplitCross } from "react-icons/gi";
 import { CiLineHeight } from "react-icons/ci";
 
 function NavBar() {
-  console.log("Start");
   const scrollToSection = (id) => {
-    console.log("Clicked.....")
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
@@ -15,22 +13,15 @@ function NavBar() {
 
   
   const HumburgNavClick = () =>{
-    console.log("Click 1...")
-    console.log(listUl);
     listUl.classList.remove("h-0");
     listUl.classList.add("pb-[45px]");
-    console.log("Click 1.....")
   }
   const removeHumburg = () =>{
-
-    console.log("Clicked 2...")
     // let navHumCont = document.getElementById("navListCon");
     var listUl = document.getElementById("listUl");
-    console.log(listUl);
     listUl.classList.add("h-0");
     listUl.classList.add("overflow-hidden");
     listUl.classList.remove("pb-[45px]");
-    console.log("Clicked 2x.....")
 
   }
   

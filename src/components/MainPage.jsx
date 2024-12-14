@@ -1,7 +1,6 @@
 import ProfilePic from "../assets/IMG/P3img4.jpg"
 
 const MainPage = () => {
-  console.log("Start Main Page");
   return (
     <div id="home" className="grid grid-cols-2 overflow-hidden lg:grid-cols-3 lg:gap-2 h-[600px] sm:h-[700px] bg-black px-[5%] sm:px-[8%] pb-[3%] sm:py-[3%]">
       <div className="col-span-2 grid place-items-center bg-black text-white mx-auto">

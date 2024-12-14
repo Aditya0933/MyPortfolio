@@ -1,7 +1,6 @@
 import AboutMeImg from "../assets/IMG/AboutSection.png";
 import AboutMeBackground from "../assets/IMG/AboutImgUpgrade1.avif";
 const AboutMe = () => {
-  console.log("End");
   return (
     <div
     id="about"
