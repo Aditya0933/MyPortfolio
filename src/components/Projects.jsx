@@ -5,14 +5,68 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import { MdFullscreenExit, MdFullscreen } from "react-icons/md";
 
-import Project1A from "../assets/IMG/P1img1.jpg";
-import Project1B from "../assets/IMG/P2img2.jpg";
-import Project1C from "../assets/IMG/P1img3.jpg";
-import Project1D from "../assets/IMG/P1img4.jpg";
-import Project1E from "../assets/IMG/P1img5.jpg";
+import Project1A from "../assets/IMG/P1img1.png";
+import Project1B from "../assets/IMG/P1img2.png";
+import Project1C from "../assets/IMG/P1img3.png";
+import Project1D from "../assets/IMG/P1img4.png";
+import Project1E from "../assets/IMG/P1img5.png";
+
+import Project2A from "../assets/IMG/P2img1.png";
+import Project2B from "../assets/IMG/P2img2.png";
+import Project2C from "../assets/IMG/P2img3.png";
+import Project2D from "../assets/IMG/P2img4.png";
+import Project2E from "../assets/IMG/P2img5.png";
+import Project2F from "../assets/IMG/P2img6.png";
+import Project2G from "../assets/IMG/P2img7.png";
+import Project2H from "../assets/IMG/P2img8.png";
+import Project2I from "../assets/IMG/P2img9.png";
+
+import Project4A from "../assets/IMG/P4img1.png";
+import Project4B from "../assets/IMG/P4img2.png";
+import Project4C from "../assets/IMG/P4img3.png";
+import Project4D from "../assets/IMG/P4img4.png";
+import Project4E from "../assets/IMG/P4img5.png";
+import Project4F from "../assets/IMG/P4img6.png";
+import Project4G from "../assets/IMG/P4img7.png";
+import Project4H from "../assets/IMG/P4img8.png";
+import Project4I from "../assets/IMG/P4img9.png";
+
+import Project5A from "../assets/IMG/P5img1.jpg";
+import Project5B from "../assets/IMG/P5img2.jpg";
+import Project5C from "../assets/IMG/P5img3.jpg";
+import Project5D from "../assets/IMG/P5img4.jpg";
+import Project5E from "../assets/IMG/P5img5.jpg";
+import Project5F from "../assets/IMG/P5img6.jpg";
+
+import Project6A from "../assets/IMG/P6img1.png";
+import Project6B from "../assets/IMG/P6img2.png";
+import Project6C from "../assets/IMG/P6img3.png";
+import Project6D from "../assets/IMG/P6img4.png";
+import Project6E from "../assets/IMG/P6img5.png";
+import Project6F from "../assets/IMG/P6img6.png";
+import Project6G from "../assets/IMG/P6img7.png";
+import Project6H from "../assets/IMG/P6img8.png";
+import Project6I from "../assets/IMG/P6img9.png";
+import Project6J from "../assets/IMG/P6img11.png";
+import Project6K from "../assets/IMG/P6img12.png";
+import Project6L from "../assets/IMG/P6img13.png";
+import Project6M from "../assets/IMG/P6img16.png";
+import Project6N from "../assets/IMG/P6img15.png";
+import Project6O from "../assets/IMG/P6img16.png";
+import Project6P from "../assets/IMG/P6img17.png";
+
+import Project7A from "../assets/IMG/P7img1.jpg";
+import Project7B from "../assets/IMG/P7img2.jpg";
+import Project7C from "../assets/IMG/P7img3.jpg";
+import Project7D from "../assets/IMG/P7img4.jpg";
+import Project7E from "../assets/IMG/P7img5.jpg";
+
+import Project9A from "../assets/IMG/P9img1.png";
+import Project9B from "../assets/IMG/P9img2.png";
 
 const Projects = () => {
   const projects = [
+    // Stray To Stay Project 1
     {
       title: "Stray To Stay",
       images: [Project1A, Project1B, Project1C, Project1D, Project1E],
@@ -30,88 +84,100 @@ const Projects = () => {
         "Material UI",
         "Stripe",
         "React-leaflet",
-        
       ],
       liveLink: "https://ankitsahu640.github.io/StrayToStay-frontend/",
       githubLink: "https://github.com/Aditya0933/StarytoStayProjectUpdated",
     },
+
+    // A & V Project... 2
     {
       title: "A&V Fashion Avenue",
-      images: [Project1A, Project1B, Project1C, Project1D, Project1E],
+      images: [
+        Project2A,
+        Project2B,
+        Project2C,
+        Project2D,
+        Project2E,
+        Project2F,
+        Project2G,
+        Project2H,
+        Project2I,
+      ],
       highlights: [
         "Crafted a seamless and user-friendly interface for an E-commerce clothing platform.",
         "Developed a 'Liked' section to enable users to save and revisit their favorite clothing items seamlessly.",
         "Created a cart section, streamlining the process of adding, removing, and purchasing products for an shopping experience.",
         "• Ensured full website responsiveness for flawless performance on both mobile devices and desktops.",
       ],
-      tecnologys: [
-        "HTML",
-        "CSS",
-        "Tailwind",
-        "JavaScript",
-        "React.js",
-      ],
+      tecnologys: ["HTML", "CSS", "Tailwind", "JavaScript", "React.js"],
       liveLink: "https://anv-collections.vercel.app/",
       githubLink: "https://github.com/Aditya0933/skipline",
     },
+
+    // Amora.IA Project 4
     {
-      title: "Doctor Dashboard",
-      images: [Project1A, Project1B, Project1C, Project1D, Project1E],
+      title: "Amora.IA",
+      images: [Project6A, Project6B, Project6C, Project6D, Project6E, Project6F, Project6G, Project6H, Project6I, Project6J, Project6K, Project6L, Project6M, Project6N, Project6O, Project6P],
       highlights: [
-        "Designed a fully responsive web application using custom code to optimize the user interface across devices.",
-        "Integrated Chart.js for dynamic medical data visualization, improving data analysis.",
-        "Fetched real-time data from an API to display current patient information, enhancing user experience.",
-        "Deployed on Netlify for efficient hosting and continuous integration.",
+        "Built a fully responsive web application using HTML, CSS, and JavaScript to deliver an optimized user interface.",
+        "Built a modular, maintainable codebase using JavaScript for enhanced functionality.",
+        "Deployed the application on Netlify for smooth hosting and performance.",
       ],
-      tecnologys: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Chart.js",
-      ],
-      liveLink: "https://aditya0933.github.io/Doctor_Dashboard/",
-      githubLink: "https://github.com/Aditya0933/Doctor_Dashboard",
+      tecnologys: ["HTML", "CSS", "Tailwind", "JavaScript", "React.js"],
+      liveLink: "https://comfy-cannoli-c7d5db.netlify.app/",
+      githubLink: "https://github.com/Aditya0933/React-Amora-Website",
     },
+
+    // Shopping Cart Project 3
     {
       title: "Shopping Cart",
-      images: [Project1A, Project1B, Project1C, Project1D, Project1E],
+      images: [
+        Project4A,
+        Project4B,
+        Project4C,
+        Project4D,
+        Project4E,
+        Project4F,
+        Project4G,
+        Project4H,
+        Project4I,
+      ],
       highlights: [
         "Designed a fully responsive shopping cart web application with a seamless and optimized UI across devices.",
         "Integrated real-time API data fetching to display up-to-date product information, enhancing the shopping experience.",
         "Implemented interactive features such as adding, removing, and updating cart items, ensuring a smooth user journey.",
         "Successfully deployed the project on Vercel, enabling fast hosting and continuous integration.",
       ],
-      tecnologys: [
-        "HTML",
-        "CSS",
-        "Tailwind",
-        "JavaScript",
-        "React.js",
-      ],
+      tecnologys: ["HTML", "CSS", "Tailwind", "JavaScript", "React.js"],
       liveLink: "https://shopping-cart-azure-five.vercel.app/",
       githubLink: "https://github.com/Aditya0933/ShoppingCart",
     },
+
+    // Memory Game Project 5
     {
-      title: "Amora.IA",
-      images: [Project1A, Project1B, Project1C, Project1D, Project1E],
+      title: "Memory Game",
+      images: [
+        Project5A,
+        Project5B,
+        Project5C,
+        Project5D,
+        Project5E,
+        Project5F,
+      ],
       highlights: [
-        "Built a fully responsive web application using HTML, CSS, and JavaScript to deliver an optimized user interface.",
-        "Built a modular, maintainable codebase using JavaScript for enhanced functionality.",
-        "Deployed the application on Netlify for smooth hosting and performance.",
+        "Constructed a responsive memory game with four levels using HTML, CSS, and JavaScript, ensuring compatibility across all devices.",
+        "Implemented card matching mechanics and a star scoring system to enhance gameplay engagement.",
+        "Incorporated a timer and background music to elevate the overall gaming experience.",
       ],
-      tecnologys: [
-        "HTML",
-        "CSS",
-        "Tailwind",
-        "JavaScript",
-        "React.js",
-      ],
-      liveLink: "https://comfy-cannoli-c7d5db.netlify.app/",
-      githubLink: "https://github.com/Aditya0933/React-Amora-Website",
+      tecnologys: ["HTML", "CSS", "JavaScript"],
+      liveLink: "https://aditya0933.github.io/MemoryGameUpdated/",
+      githubLink: "https://github.com/Aditya0933/Memory-game",
     },
+
+    // NETFLIX GPT Project 6
     {
       title: "NETFLIX GPT",
-      images: [Project1A, Project1B, Project1C, Project1D, Project1E],
+      images: [Project7A, Project7B, Project7C, Project7D, Project7E],
       highlights: [
         "Created a responsive front-end web application using Tailwind CSS for an optimal user experience across devices.",
         "Implemented TMDB’s API to fetch and display detailed movie information.",
@@ -129,21 +195,20 @@ const Projects = () => {
       liveLink: "https://lively-mooncake-88c2cf.netlify.app/",
       githubLink: "https://github.com/Aditya0933/NetflixGPT3.0",
     },
+
+    // Doctor Dashboard Project 7
     {
-      title: "Memory Game",
-      images: [Project1A, Project1B, Project1C, Project1D, Project1E],
+      title: "Doctor Dashboard",
+      images: [Project9A, Project9B],
       highlights: [
-        "Constructed a responsive memory game with four levels using HTML, CSS, and JavaScript, ensuring compatibility across all devices.",
-        "Implemented card matching mechanics and a star scoring system to enhance gameplay engagement.",
-        "Incorporated a timer and background music to elevate the overall gaming experience.",
+        "Designed a fully responsive web application using custom code to optimize the user interface across devices.",
+        "Integrated Chart.js for dynamic medical data visualization, improving data analysis.",
+        "Fetched real-time data from an API to display current patient information, enhancing user experience.",
+        "Deployed on Netlify for efficient hosting and continuous integration.",
       ],
-      tecnologys: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-      ],
-      liveLink: "https://aditya0933.github.io/MemoryGameUpdated/",
-      githubLink: "https://github.com/Aditya0933/Memory-game",
+      tecnologys: ["HTML", "CSS", "JavaScript", "Chart.js"],
+      liveLink: "https://aditya0933.github.io/Doctor_Dashboard/",
+      githubLink: "https://github.com/Aditya0933/Doctor_Dashboard",
     },
   ];
 
@@ -190,7 +255,7 @@ const Projects = () => {
             className={`relative ${
               fullScreenIndex === index
                 ? "h-screen w-screen"
-                : "h-[300px] w-[300px] lg:h-[400px] lg:w-[400px] bg-slate-200 m-auto"
+                : "h-[300px] w-[300px] lg:h-[400px] lg:w-[400px] bg-black m-auto"
             }`}
           >
             <Swiper
@@ -203,7 +268,7 @@ const Projects = () => {
                   <img
                     src={img}
                     alt={`Slide ${idx + 1}`}
-                    className="h-full w-full object-contain"
+                    className="h-full w-full object-contain p-8"
                     loading="lazy"
                   />
                 </SwiperSlide>

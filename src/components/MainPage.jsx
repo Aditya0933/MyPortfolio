@@ -1,4 +1,3 @@
-import ProfilePic from "../assets/IMG/P3img4.jpg"
 
 const MainPage = () => {
   return (
